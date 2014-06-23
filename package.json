@@ -1,0 +1,29 @@
+{
+  "name": "mjs-build",
+  "version": "0.0.1",
+  "author": "Iván -DrSlump- Montes <drslump@pollinimini.net>",
+  "description": "advanced builds for meta-script projects",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/drslump/mjs-build.git"
+  },
+  "main": "index.js",
+  "bin": {
+    "mjs-build": "./bin/mjs-build"
+  },
+  "dependencies": {
+    "meta-script": "~0.0.40",
+    "minimist": "^0.2.0"
+  },
+  "keywords": [
+    "compiler",
+    "metascript",
+    "mjs",
+    "mjs-command",
+    "build"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.8"
+  }
+}

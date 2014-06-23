@@ -1,0 +1,6 @@
+#!/bin/sh
+":" //# hack to run node with args; exec node --expose-gc "$0" "$@"
+
+var argv = process.argv.slice(2);
+
+require('../index')(argv, process.exit);
